@@ -1,0 +1,52 @@
+# GeoERT Agent — .gitignore
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Output files (generated) ─────────────────────────────
+output/
+outputs/
+*.png
+*.pdf
+*.svg
+!docs/*.png         # keep docs screenshots
+
+# ── Secrets ───────────────────────────────────────────────
+.env                # contains TELEGRAM_TOKEN — never commit this
+secrets.json
+
+# ── VS Code ───────────────────────────────────────────────
+.vscode/settings.json    # personal settings — keep only shared ones
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ── macOS ────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── Testing ───────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── MyPy ─────────────────────────────────────────────────
+.mypy_cache/

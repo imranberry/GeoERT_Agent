@@ -1,0 +1,28 @@
+{
+  "recommendations": [
+    // ── Python core ───────────────────────────────────
+    "ms-python.python",           // Python language support
+    "ms-python.black-formatter",  // Black code formatter
+    "ms-python.flake8",           // Linter
+    "ms-python.isort",            // Import sorter
+
+    // ── Jupyter ───────────────────────────────────────
+    "ms-toolsai.jupyter",         // Jupyter notebook support
+    "ms-toolsai.jupyter-keymap",  // Jupyter keyboard shortcuts
+
+    // ── Code quality ──────────────────────────────────
+    "ms-python.mypy-type-checker",// Type checking
+    "streetsidesoftware.code-spell-checker", // Spell checker
+
+    // ── Environment ───────────────────────────────────
+    "mikestead.dotenv",           // .env file syntax highlighting
+
+    // ── Git ───────────────────────────────────────────
+    "eamodio.gitlens",            // Git blame, history, etc.
+    "mhutchie.git-graph",         // Visual git graph
+
+    // ── Productivity ──────────────────────────────────
+    "gruntfuggly.todo-tree",      // Highlight TODO / FIXME comments
+    "christian-kohler.path-intellisense" // File path autocomplete
+  ]
+}

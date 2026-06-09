@@ -1,0 +1,24 @@
+# GeoERT Agent — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core scientific stack ──────────────────────────────────
+numpy>=1.24.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+scipy>=1.10.0
+
+# ── Telegram bot deployment ───────────────────────────────
+python-telegram-bot>=20.0
+
+# ── Development & notebooks ───────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# ── Optional: professional ERT inversion ──────────────────
+# pygimli      # Uncomment for advanced inversion (large install)
+
+# ── Optional: interactive 3D plots ────────────────────────
+# plotly>=5.0  # Uncomment for interactive borehole viewer
+
+# ── Optional: PDF report generation ──────────────────────
+# fpdf2>=2.7   # Uncomment for PDF export
