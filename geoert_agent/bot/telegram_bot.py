@@ -14,8 +14,13 @@ import logging
 # the geoert/ package must be importable.
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from dotenv import load_dotenv
-load_dotenv()
+# Load .env file locally — on Railway env vars are injected directly,
+# so python-dotenv may not be installed. This try/except handles both.
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # Railway injects TELEGRAM_TOKEN as an environment variable
 
 logging.basicConfig(
     format="%(asctime)s — %(name)s — %(levelname)s — %(message)s",
