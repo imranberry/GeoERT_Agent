@@ -204,7 +204,7 @@ geoert-agent/
 
 ```bash
 # 1. Clone
-git clone https://github.com/yourusername/geoert-agent.git
+git clone https://github.com/imranberry/GeoERT_Agent
 cd geoert-agent
 
 # 2. Create virtual environment
@@ -280,13 +280,7 @@ git push origin feature/your-feature
 ## 👤 Author
 
 **Malik Oluwatobiloba Imran**
-Data Science Instructor · [Codar Data Science Program](https://codar.ng) · Nigeria
-
----
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
+Data Science Instructor · [Codar Tech africa
 
 ---
 
